@@ -1,0 +1,65 @@
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.frmPLC.resources
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.vbproj.GenerateResource.Cache
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.exe
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.pdb
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.xml
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.exe
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.xml
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.pdb
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.exe
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.xml
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.pdb
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.exe
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.pdb
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.xml
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.frmPLC.resources
+C:\Documents and Settings\MRosenbaum.CHEMPUMP\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.vbproj.GenerateResource.Cache
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.exe
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.xml
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.pdb
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.exe
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.pdb
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\bin\CalibratePLCs.xml
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.frmPLC.resources
+C:\Users\MRosenbaum\Desktop\From D\Desktop\Current Projects\Calibrate PLCs (VB.Net)\CalibratePLCs.NET\obj\Debug\CalibratePLCs.vbproj.GenerateResource.Cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\bin\CalibratePLCs.exe.config
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\bin\CalibratePLCs.exe
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\bin\CalibratePLCs.pdb
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\bin\CalibratePLCs.xml
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.vbprojAssemblyReference.cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.frmPLC.resources
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.vbproj.GenerateResource.cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.vbproj.CoreCompileInputs.cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.exe
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.xml
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\obj\Debug\CalibratePLCs.pdb
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\bin\HEI32_3.DLL
+C:\Users\mrosenbaum\Desktop\CalibratePLCs.NET\bin\HEI_PAS.dll
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.vbprojAssemblyReference.cache
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.frmPLC.resources
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.vbproj.GenerateResource.cache
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.vbproj.CoreCompileInputs.cache
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.exe
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.xml
+C:\Users\mrosenbaum\Repos\CalibratePLCs\obj\Debug\CalibratePLCs.pdb
+C:\Users\mrosenbaum\Repos\CalibratePLCs\bin\HEI32_3.DLL
+C:\Users\mrosenbaum\Repos\CalibratePLCs\bin\HEI_PAS.dll
+C:\Users\mrosenbaum\Repos\CalibratePLCs\bin\CalibratePLCs.exe.config
+C:\Users\mrosenbaum\Repos\CalibratePLCs\bin\CalibratePLCs.exe
+C:\Users\mrosenbaum\Repos\CalibratePLCs\bin\CalibratePLCs.pdb
+C:\Users\mrosenbaum\Repos\CalibratePLCs\bin\CalibratePLCs.xml
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\bin\HEI32_3.DLL
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\bin\HEI_PAS.dll
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\bin\CalibratePLCs.exe.config
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\bin\CalibratePLCs.exe
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\bin\CalibratePLCs.pdb
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\bin\CalibratePLCs.xml
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.vbprojAssemblyReference.cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.frmPLC.resources
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.vbproj.GenerateResource.cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.vbproj.CoreCompileInputs.cache
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.exe
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.xml
+C:\Users\mrosenbaum\Desktop\CalibratePLCs\obj\Debug\CalibratePLCs.pdb
