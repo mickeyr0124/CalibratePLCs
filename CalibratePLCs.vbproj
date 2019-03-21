@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="AverageData.vb" />
     <Compile Include="frmPLC.Designer.vb">
       <SubType>Code</SubType>
       <DependentUpon>frmPLC.vb</DependentUpon>

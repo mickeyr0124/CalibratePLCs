@@ -6,15 +6,17 @@ Friend Class frmPLC
     Inherits System.Windows.Forms.Form
     ' v 1.0.1 MHR 11/02/05
     ' Changed path from checps1 to checpsa
-    ' v 1.0.2 NHR 8/1/2011
+    ' v 1.0.2 MHR 8/1/2011
     ' Changed path to TEI-Main-01
+    ' v 1.0.3 MHR 3/21/2019
+    ' Changed to vb.net and added averaging
 
-    Dim FirstTime As Boolean
     'instantiate new class of plc communications
     Dim PLCCm As PLCRoutines = New PLCRoutines
     Dim PLCData As PLCRoutines.PLCDataStruct
 
     Dim PLCDict As Dictionary(Of String, String) = New Dictionary(Of String, String)
+    Dim AveData As AverageData = New AverageData
 
 
     Private Sub cmbPLCLoop_SelectedIndexChanged(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cmbPLCLoop.SelectedIndexChanged
@@ -79,39 +81,53 @@ Friend Class frmPLC
         cmbPLCLoop.SelectedIndex = 0
         cmbPLCLoop_SelectedIndexChanged(cmbPLCLoop, New System.EventArgs())
 
-        FirstTime = True
-
+        AveData.Multiplier = 0
+        Me.btnAveRaw_Click(eventSender, eventArgs)
         Timer1.Enabled = True
 
     End Sub
 
     Private Sub Timer1_Tick(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Timer1.Tick
-        'Static count As Integer
-        'If FirstTime Then
-        '    count = count + 1
-        '    If count > 2 Then
-        '        count = 2
-        '        cmbPLCLoop.SelectedIndex = 0
-        '        cmbPLCLoop_SelectedIndexChanged(cmbPLCLoop, New System.EventArgs())
-        '        FirstTime = False
-        '    End If
-        'End If
-
         PLCData = PLCCm.GetPLCData()
         updateData(PLCData)
-
     End Sub
     Private Sub updateData(PLCData As PLCRoutines.PLCDataStruct)
 
-        txtFlow.Text = Format(PLCData.Flow, "###0.0")
-        txtSuction.Text = Format(Convert.ToSingle(PLCData.SuctionPressure), "###0.0")
-        txtDischarge.Text = Format(PLCData.DischargePressure, "###0.0")
-        txtTemperature.Text = Format(PLCData.Temperature, "###0.0")
-        txtCh1.Text = Format(PLCData.AI1, "###0.0")
-        txtCh2.Text = Format(PLCData.AI2, "###0.0")
-        txtCh3.Text = Format(PLCData.AI3, "###0.0")
-        txtCh4.Text = Format(PLCData.AI4, "###0.0")
+        'calculate average/raw data
+        ' if multiplier = 0, calc raw
+        txtFlow.Text = AveData.CalcAveData(txtFlow.Text, PLCData.Flow)
+        txtSuction.Text = AveData.CalcAveData(txtSuction.Text, PLCData.SuctionPressure)
+        txtDischarge.Text = AveData.CalcAveData(txtDischarge.Text, PLCData.DischargePressure)
+        txtTemperature.Text = AveData.CalcAveData(txtTemperature.Text, PLCData.Temperature)
+        txtCh1.Text = AveData.CalcAveData(txtCh1.Text, PLCData.AI1)
+        txtCh2.Text = AveData.CalcAveData(txtCh2.Text, PLCData.AI2)
+        txtCh3.Text = AveData.CalcAveData(txtCh3.Text, PLCData.AI3)
+        txtCh4.Text = AveData.CalcAveData(txtCh4.Text, PLCData.AI4)
 
     End Sub
 
+    Private Sub btnAveRaw_Click(sender As Object, e As EventArgs) Handles btnAveRaw.Click
+        If Me.btnAveRaw.Text = "Raw Data" Then
+            Me.btnAveRaw.Text = "Average Data"
+            pnlDamping.Visible = False
+            Me.lblAveRaw.Text = "Displaying Raw Data"
+            AveData.Multiplier = 0
+
+        Else
+            Me.btnAveRaw.Text = "Raw Data"
+            pnlDamping.Visible = True
+            Me.lblAveRaw.Text = "Displaying Averaged Data"
+            Me.TrackBar1_Scroll(sender, e)
+        End If
+
+        'center the label horizontally
+        Dim frm As Form = Me
+        Dim fw As Int16 = frm.Width
+        Dim lw As Int16 = Me.lblAveRaw.Width
+        Me.lblAveRaw.Left = (fw - lw) / 2
+    End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+        AveData.Multiplier = TrackBar1.Value / 10
+    End Sub
 End Class

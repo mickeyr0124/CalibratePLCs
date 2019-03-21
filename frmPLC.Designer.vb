@@ -66,6 +66,15 @@
         Me.lblVersion = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.btnAveRaw = New System.Windows.Forms.Button()
+        Me.pnlDamping = New System.Windows.Forms.Panel()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.TrackBar1 = New System.Windows.Forms.TrackBar()
+        Me.lblAveRaw = New System.Windows.Forms.Label()
+        Me.pnlDamping.SuspendLayout()
+        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'cmbPLCLoop
@@ -80,7 +89,7 @@
         'cmdExit
         '
         Me.cmdExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdExit.Location = New System.Drawing.Point(416, 629)
+        Me.cmdExit.Location = New System.Drawing.Point(414, 753)
         Me.cmdExit.Name = "cmdExit"
         Me.cmdExit.Size = New System.Drawing.Size(92, 29)
         Me.cmdExit.TabIndex = 2
@@ -92,7 +101,7 @@
         Me.txtFlow.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFlow.Location = New System.Drawing.Point(212, 208)
         Me.txtFlow.Name = "txtFlow"
-        Me.txtFlow.Size = New System.Drawing.Size(137, 53)
+        Me.txtFlow.Size = New System.Drawing.Size(183, 53)
         Me.txtFlow.TabIndex = 3
         Me.txtFlow.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -101,7 +110,7 @@
         Me.txtSuction.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSuction.Location = New System.Drawing.Point(212, 275)
         Me.txtSuction.Name = "txtSuction"
-        Me.txtSuction.Size = New System.Drawing.Size(137, 53)
+        Me.txtSuction.Size = New System.Drawing.Size(183, 53)
         Me.txtSuction.TabIndex = 4
         Me.txtSuction.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -110,7 +119,7 @@
         Me.txtDischarge.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDischarge.Location = New System.Drawing.Point(212, 338)
         Me.txtDischarge.Name = "txtDischarge"
-        Me.txtDischarge.Size = New System.Drawing.Size(137, 53)
+        Me.txtDischarge.Size = New System.Drawing.Size(183, 53)
         Me.txtDischarge.TabIndex = 5
         Me.txtDischarge.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -119,7 +128,7 @@
         Me.txtTemperature.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTemperature.Location = New System.Drawing.Point(212, 401)
         Me.txtTemperature.Name = "txtTemperature"
-        Me.txtTemperature.Size = New System.Drawing.Size(137, 53)
+        Me.txtTemperature.Size = New System.Drawing.Size(183, 53)
         Me.txtTemperature.TabIndex = 6
         Me.txtTemperature.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -127,7 +136,7 @@
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(115, 224)
+        Me.Label11.Location = New System.Drawing.Point(140, 224)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(66, 29)
         Me.Label11.TabIndex = 7
@@ -137,7 +146,7 @@
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(94, 291)
+        Me.Label12.Location = New System.Drawing.Point(113, 291)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(93, 29)
         Me.Label12.TabIndex = 8
@@ -147,7 +156,7 @@
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(76, 354)
+        Me.Label13.Location = New System.Drawing.Point(84, 354)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(122, 29)
         Me.Label13.TabIndex = 9
@@ -157,7 +166,7 @@
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(57, 417)
+        Me.Label14.Location = New System.Drawing.Point(53, 417)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(153, 29)
         Me.Label14.TabIndex = 10
@@ -167,7 +176,7 @@
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(501, 417)
+        Me.Label15.Location = New System.Drawing.Point(537, 417)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(62, 29)
         Me.Label15.TabIndex = 18
@@ -177,7 +186,7 @@
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(501, 354)
+        Me.Label16.Location = New System.Drawing.Point(537, 354)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(62, 29)
         Me.Label16.TabIndex = 17
@@ -187,7 +196,7 @@
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(501, 291)
+        Me.Label17.Location = New System.Drawing.Point(537, 291)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(62, 29)
         Me.Label17.TabIndex = 16
@@ -197,7 +206,7 @@
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(498, 224)
+        Me.Label18.Location = New System.Drawing.Point(537, 224)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(62, 29)
         Me.Label18.TabIndex = 15
@@ -208,7 +217,7 @@
         Me.txtCh4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh4.Location = New System.Drawing.Point(605, 401)
         Me.txtCh4.Name = "txtCh4"
-        Me.txtCh4.Size = New System.Drawing.Size(137, 53)
+        Me.txtCh4.Size = New System.Drawing.Size(183, 53)
         Me.txtCh4.TabIndex = 14
         Me.txtCh4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -217,7 +226,7 @@
         Me.txtCh3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh3.Location = New System.Drawing.Point(605, 342)
         Me.txtCh3.Name = "txtCh3"
-        Me.txtCh3.Size = New System.Drawing.Size(137, 53)
+        Me.txtCh3.Size = New System.Drawing.Size(183, 53)
         Me.txtCh3.TabIndex = 13
         Me.txtCh3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -226,7 +235,7 @@
         Me.txtCh2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh2.Location = New System.Drawing.Point(605, 279)
         Me.txtCh2.Name = "txtCh2"
-        Me.txtCh2.Size = New System.Drawing.Size(137, 53)
+        Me.txtCh2.Size = New System.Drawing.Size(183, 53)
         Me.txtCh2.TabIndex = 12
         Me.txtCh2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -235,7 +244,7 @@
         Me.txtCh1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCh1.Location = New System.Drawing.Point(605, 212)
         Me.txtCh1.Name = "txtCh1"
-        Me.txtCh1.Size = New System.Drawing.Size(137, 53)
+        Me.txtCh1.Size = New System.Drawing.Size(183, 53)
         Me.txtCh1.TabIndex = 11
         Me.txtCh1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -271,9 +280,85 @@
         Me.Label20.TabIndex = 21
         Me.Label20.Text = "Select PLC"
         '
+        'btnAveRaw
+        '
+        Me.btnAveRaw.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAveRaw.Location = New System.Drawing.Point(51, 630)
+        Me.btnAveRaw.Name = "btnAveRaw"
+        Me.btnAveRaw.Size = New System.Drawing.Size(147, 77)
+        Me.btnAveRaw.TabIndex = 22
+        Me.btnAveRaw.Text = "Raw Data"
+        Me.btnAveRaw.UseVisualStyleBackColor = True
+        '
+        'pnlDamping
+        '
+        Me.pnlDamping.Controls.Add(Me.Label23)
+        Me.pnlDamping.Controls.Add(Me.Label22)
+        Me.pnlDamping.Controls.Add(Me.Label21)
+        Me.pnlDamping.Controls.Add(Me.TrackBar1)
+        Me.pnlDamping.Location = New System.Drawing.Point(315, 602)
+        Me.pnlDamping.Name = "pnlDamping"
+        Me.pnlDamping.Size = New System.Drawing.Size(563, 133)
+        Me.pnlDamping.TabIndex = 27
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(460, 63)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(87, 29)
+        Me.Label23.TabIndex = 30
+        Me.Label23.Text = "Lighter"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(16, 63)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(96, 29)
+        Me.Label22.TabIndex = 29
+        Me.Label22.Text = "Heavier"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(229, 13)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(110, 29)
+        Me.Label21.TabIndex = 28
+        Me.Label21.Text = "Damping"
+        '
+        'TrackBar1
+        '
+        Me.TrackBar1.Location = New System.Drawing.Point(127, 45)
+        Me.TrackBar1.Maximum = 9
+        Me.TrackBar1.Minimum = 1
+        Me.TrackBar1.Name = "TrackBar1"
+        Me.TrackBar1.Size = New System.Drawing.Size(314, 64)
+        Me.TrackBar1.TabIndex = 27
+        Me.TrackBar1.Value = 1
+        '
+        'lblAveRaw
+        '
+        Me.lblAveRaw.AutoSize = True
+        Me.lblAveRaw.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAveRaw.ForeColor = System.Drawing.Color.Red
+        Me.lblAveRaw.Location = New System.Drawing.Point(199, 485)
+        Me.lblAveRaw.Name = "lblAveRaw"
+        Me.lblAveRaw.Size = New System.Drawing.Size(527, 52)
+        Me.lblAveRaw.TabIndex = 28
+        Me.lblAveRaw.Text = "Displaying Averaged Data"
+        Me.lblAveRaw.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmPLC
         '
-        Me.ClientSize = New System.Drawing.Size(924, 682)
+        Me.ClientSize = New System.Drawing.Size(924, 804)
+        Me.Controls.Add(Me.lblAveRaw)
+        Me.Controls.Add(Me.pnlDamping)
+        Me.Controls.Add(Me.btnAveRaw)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.lblVersion)
@@ -297,6 +382,9 @@
         Me.Controls.Add(Me.cmbPLCLoop)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "frmPLC"
+        Me.pnlDamping.ResumeLayout(False)
+        Me.pnlDamping.PerformLayout()
+        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -323,5 +411,12 @@
     Friend WithEvents lblVersion As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents Label20 As Label
+    Friend WithEvents btnAveRaw As Button
+    Friend WithEvents pnlDamping As Panel
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents TrackBar1 As TrackBar
+    Friend WithEvents lblAveRaw As Label
 #End Region
 End Class
